@@ -87,6 +87,7 @@ ifeq ($(HOST_OS),linux)
 endif
 
 # Display
+TARGET_USES_EGL_DISPLAY_ARRAY := true
 TARGET_USES_HWC2 := true
 
 # DRM
